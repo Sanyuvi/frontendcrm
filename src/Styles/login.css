@@ -1,0 +1,224 @@
+ .login-page{
+
+ .main {
+     display: flex;
+     flex-direction: column;
+     margin: auto; 
+       width: 100%;
+     max-width: 600px;
+     /* Adjust max-width for responsiveness */
+     min-height: 100vh;
+     padding: 0 20px;
+     /* Add padding for responsiveness */
+ }
+
+ .header {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 9px;
+     width: 100%;
+     margin-top: 150px;
+ }
+
+ .text {
+     color: goldenrod;
+     font-size: 2rem;
+     /* Use rem units for responsive font size */
+     font-weight: 700;
+ }
+
+ .underline {
+     width: 61px;
+     height: 6px;
+     background: goldenrod;
+     border-radius: 9px;
+ }
+
+ .outputs {
+     margin-top: 30px;
+     /* Adjust margin for responsiveness */
+     display: flex;
+     flex-direction: column;
+     gap: 30px;
+     /* Adjust gap for responsiveness */
+ }
+
+ .output {
+     display: flex;
+     align-items: center;
+     margin: auto;
+     width: 100%;
+     background: #eaeaea;
+     border-radius: 6px;
+     padding: 0 10px;
+     /* Add padding for responsiveness */
+ }
+
+ .output img {
+     margin: 0 20px;
+     /* Adjust margin for responsiveness */
+ }
+
+ .output input {
+     flex: 1;
+     /* Make the input field take available space */
+     height: 50px;
+     width: 100%;
+     /* Use 100% width for responsiveness */
+     background: transparent;
+     border: none;
+     outline: none;
+     color: #797979;
+     font-size: 1.4rem;
+     /* Use rem units for responsive font size */
+ }
+
+ .forgot-password {
+     padding-left: 20px;
+     /* Adjust padding for responsiveness */
+     margin-top: 20px;
+     /* Adjust margin for responsiveness */
+     color: #797979;
+     font-size: 1.2rem;
+     /* Use rem units for responsive font size */
+ }
+
+ .forgot-password span {
+     color: goldenrod;
+     cursor: pointer;
+ }
+
+ .submitcontainer {
+     display: flex;
+     gap: 20px;
+     /* Adjust gap for responsiveness */
+     margin: 40px auto;
+     /* Adjust margin for responsiveness */
+ }
+
+ .submit {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex: 1;
+     /* Make the button take available space */
+    width: 100px;
+     height: 45px;
+     color: white;
+     background: goldenrod;
+     border-radius: 10px;
+     font-size: 1.4rem;
+     /* Use rem units for responsive font size */
+     font-weight: 700;
+     cursor: pointer;
+ }
+
+ .error-message {
+     color: #ff0000;
+     font-size: 1.6rem;
+     /* Use rem units for responsive font size */
+     margin-top: 10px;
+ }
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* * .main{
+    display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 100%;
+        min-height: 100vh;
+        width: 600px;
+        
+        
+}
+
+.header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 9px;
+        width: 100%;
+        margin-top: 30px;
+} 
+.text{
+    color: goldenrod;
+        font-size: 48px;
+        font-weight: 700;
+} 
+.underline{
+    width: 61px;
+    height: 6px;
+    background: goldenrod;
+    border-radius: 9px;
+} 
+.outputs{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+} 
+.output{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    background: #eaeaea;
+    border-radius: 6px;
+}
+.output img{ 
+    margin: 0px 30px; 
+ } 
+
+.output input{
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+} 
+.forgot-password{
+    padding-left: 62px;
+    margin-top: 27px;
+    color: #797979;
+    font-size: 18px;
+}
+.forgot-password span{
+    color: goldenrod;
+    cursor: pointer;
+}
+.submitcontainer{
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
+} 
+.submit{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 220px;
+        height: 59px;
+        color: white;
+        background: goldenrod;
+        border-radius: 50px;
+        font-size: 19px;
+        font-weight: 700;
+        cursor: pointer;
+} 
+.error-message {
+    color: #ff0000;
+   
+    font-size: 20px;
+    margin-top: 10px;
+  
+}  */
+
