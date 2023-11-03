@@ -1,70 +1,107 @@
-# Getting Started with Create React App
+<p align="center">
+  <a href="#"><img src="https://capsule-render.vercel.app/api?type=rect&color=gray&height=100&section=header&text=CRM&fontSize=60%&fontColor=#F7CA18" alt="website title image"></a>
+  <h2 align="center">👉 Customer relations management in MERN STACK👈</h2>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+<img src="https://img.shields.io/badge/language-React-yellow?style=for-the-badge">
+<img src="https://img.shields.io/badge/language-MongoDB-yellow?style=for-the-badge">
+<img src="https://img.shields.io/badge/language-Express-yellow?style=for-the-badge">
+<img src="https://img.shields.io/badge/language-Nodejs-yellow?style=for-the-badge">  
+ </p>
 
-## Available Scripts
+## 📌 Introduction
 
-In the project directory, you can run:
+Customer relations management tool built in MERN stack.
 
-### `npm start`
+## Frontend Deployed Website : https://6544af3292582767e7ef880d--warm-kashata-416414.netlify.app
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Backend Deployed Url: https://crmbackend-b10n.onrender.com
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Github Repositories
 
-### `npm test`
+Frontend Link : https://github.com/Sanyuvi/frontendcrm
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Backend Link : https://github.com/Sanyuvi/CRM-Backend
 
-### `npm run build`
+# Credentials to try out the app :
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### For Admin Sign in
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+email : admin@gmail.com
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+password: admin@123
 
-### `npm run eject`
+### For Manager Sign in
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+email : manager@gmail.com
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+password: manager@123
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### For Employee Sign in
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+email : employee@gmail.com
 
-## Learn More
+password: employee@123
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## ⭐ Features of the app
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Three sections of this app:-
 
-### Code Splitting
+- Service Request:
+  Contains details of the service request:-
+  1. Client Name
+  2. Service Requested
+  3. Priority of Task
+  4. Status of Task
+  5. Expected Closing
+- Leads:
+  Contains details of leads:-
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+  1. Client Name
+  2. Client Contact
+  3. Enquiry about service
+  4. Lead Handleby
+  5. Status of lead
 
-### Analyzing the Bundle Size
+- Users:
+  Contains Users details:-
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+  1. Users Name.
+  2. Email of the user.
+  3. Role of the user.
+  4. Contact of the user
 
-### Making a Progressive Web App
+- Manager
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+  - Contains the following tabs:-
 
-### Advanced Configuration
+    - Service Request
+    - Lead
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+  - Manager has following functions:-
+    1. Manager can view, add, update and delete service request .
+    2. Manager can view, add, update and delete leads.
 
-### Deployment
+- Employee
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+  - Contains the following tabs:-
 
-### `npm run build` fails to minify
+    - Service Request
+    - Lead
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  - Employee has following functions:-
+    1. Employee can oly view service request & leads .
+
+- Admin
+
+  - Contains the following tabs:-
+
+    - Service Request
+    - Leads
+    - Users
+
+  - Admin has following features:-
+    1. Admin can view, add, update and delete users.
+    2. Admin can view, add, update and delete service request.
+    3. Admin can view, add, update and delete leads.
