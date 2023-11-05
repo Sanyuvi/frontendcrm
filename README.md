@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="#"><img src="https://capsule-render.vercel.app/api?type=rect&color=gray&height=100&section=header&text=CRM&fontSize=60%&fontColor=#FFFF00" alt="website title image"></a>
+  <a href="#"><img src="https://capsule-render.vercel.app/api?type=rect&color=gray&height=100&section=header&text=CRM&fontSize=60%&fontColor=#ffcc00" alt="website title image"></a>
   <h2 align="center">👉 Customer relations management in MERN STACK👈</h2>
 </p>
 
