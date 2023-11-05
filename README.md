@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="#"><img src="https://capsule-render.vercel.app/api?type=rect&color=gray&height=100&section=header&text=CRM&fontSize=60%&fontColor=#F7CA18" alt="website title image"></a>
+  <a href="#"><img src="https://capsule-render.vercel.app/api?type=rect&color=gray&height=100&section=header&text=CRM&fontSize=60%&fontColor=#FFFF00" alt="website title image"></a>
   <h2 align="center">👉 Customer relations management in MERN STACK👈</h2>
 </p>
 
@@ -12,9 +12,44 @@
 
 ## 📌 Introduction
 
-Customer relations management tool built in MERN stack.
+The CRM (Customer Relationship Management) project is a web application designed for construction companies to efficiently manage customer interactions, streamline their business processes, and provide exceptional service to their clients.
 
-## Frontend Deployed Website : https://6544af3292582767e7ef880d--warm-kashata-416414.netlify.app
+This CRM system is designed to facilitate the management of customer inquiries and service requests effectively.
+
+### Key Functionalities
+
+- **Leads Management:**
+
+  - Convert customer inquiries into potential leads.
+  - Track and manage leads.
+
+- **Service Requests:**
+
+  - Transform leads into actionable service requests.
+  - Monitor the status of service requests.
+  - Set priority levels and deadlines for service completion.
+
+- **User Management:**
+  - Secure user authentication and authorization.
+  - Administrate and organize users' roles and permissions.
+
+## Technologies Used
+
+- **Frontend:**
+
+  - Developed using React, a JavaScript library for building dynamic user interfaces.
+  - Utilized Redux for state management, ensuring seamless data flow.
+  - Employed React Router for streamlined navigation.
+  - Implemented the Context API for global state management.
+  - Enhanced user experience with Formik and Yup for form handling and validation.
+  - Notified users with React Toastify for notifications.
+
+- **Backend:**
+  - Created a robust API using Express.js, a Node.js framework, for handling requests.
+  - Leveraged MongoDB, a NoSQL database, to store and manage user and CRM data.
+  - Ensured secure user authentication with JSON Web Tokens (JWT).
+
+## Frontend Deployed Website : https://preeminent-selkie-392ee3.netlify.app/
 
 ## Backend Deployed Url: https://crmbackend-b10n.onrender.com
 
@@ -105,3 +140,18 @@ Three sections of this app:-
     1. Admin can view, add, update and delete users.
     2. Admin can view, add, update and delete service request.
     3. Admin can view, add, update and delete leads.
+
+## Usage
+
+To run the application locally:
+
+- Clone this repository.
+- Navigate to the project directory and install dependencies using npm install.
+- Start the frontend and backend servers using npm start.
+- Access the application in your web browser at http://localhost:3000.
+
+## Contact
+
+For questions, inquiries, or additional information, please don't hesitate to contact the project maintainers:
+
+- Santhosh - [santhoshh2197@gmail.com]
